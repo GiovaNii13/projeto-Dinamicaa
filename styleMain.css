@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    padding: 50px;
+}
+
+.titulo1__main {
+    font-size: 46px;
+    color: #0d3f86;
+}
+
+.caixa-imagens {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+    padding-bottom: 40px;
+}

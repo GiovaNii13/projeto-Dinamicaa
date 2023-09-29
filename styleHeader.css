@@ -16,13 +16,14 @@ html, body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 440px;
+    height: 650px;
     width: 100%;
     align-items: flex-start;
     justify-content: flex-start;
     background-image:url(assets/abstract_header.png), url(assets/banner_header.jpg);
-    background-size: cover;
-    background-position: top;
+    background-size:cover;
+    
+   
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 120px;
@@ -30,13 +31,60 @@ html, body {
 }
 
 
+.container-1{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.botao-p1{
+    background-color: transparent;
+    color: white;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid 2.5px;
+    border-color: white;
+    border-radius: 25px;
+    font-size: 14px;
+}
+
+
+.botao-p2 {
+    background-color: transparent;
+    color: white;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid 2.5px;
+    border-color: white;
+    border-radius: 25px;
+    margin-left: 2em;
+    font-size: 14px;
+}
+
+
+.botoes-principais {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+.botoes-principais :hover {
+    background-color: white;
+    color: #0d3f86;
+}
+
+
 .div-texto {
     flex: 2;
-    height: 100%;
-    font-size: 46px;
+    height: 80%;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    margin-left: 1em;
 } 
 
 
@@ -48,32 +96,41 @@ html, body {
     display: flex;
     align-items: end;
     justify-content: center;
-} 
+}
+
+
+.div-button :hover {
+    opacity: .9;
+    cursor: pointer;
+}
 
 
 .button{
     background-color: #0d3f86;
     padding-left: 40px;
     padding-right: 40px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     border: none;
     border-radius: 30px;
     color: white;
+    font-size: 20px;
+    
 }
 
 
 .texto-localizacao {
-    font-size: 38px;
+    font-size: 33px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     flex: 2;
     height: 100%;
+    font-family: sans-serif;
 }
 
 .tit-2 {
-    color: #0d3f86;
+    color: #4F4F4F;
 }
 
 
@@ -92,4 +149,11 @@ html, body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.texto-missao {
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    
 }

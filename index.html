@@ -6,17 +6,26 @@
     <meta name="description" content="Site dinâmica">
     <meta name="author" content="Giovani Alves">
     <title>Home</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleHeader.css">
+    <link rel="stylesheet" href="styleMain.css">
 </head>
 <body>
     <header class="header">
         <div class="div-texto">
-            <img src="assets/logo.png" width="100px"  alt="Logo da dinâmica">
-            <div>
+
+            <div class=container-1>
+                <img src="assets/logo.png" width="100px"  alt="Logo da dinâmica">
+                <section class="botoes-principais">
+                    <button class="botao-p1">Ligar agora</button>
+                    <button class="botao-p2">Ver rotas</button>
+                </section>
+            </div>
+            
+            <div class="texto-missao">
                 <p>Nossa missão é</p>
                 <b>realizar sonhos</b>
                 <p>através de capacitação</p>
-                <b>profissional e pessoal</b>
+                <b>profissional e pessoal.</b>
             </div>
         </div>    
         <div class="div-button">
@@ -34,5 +43,58 @@
             <h2 class="tit-2">Profissionalizantes</h2>
         </div>
     </header>
+
+    <main>
+        <section class="secao-01">
+            <div class="textop1-main">
+                <h2 class="titulo1__main">Áreas que você pode estar atuando</h2>
+                <p>Temos as melhores oportunidades para você ingressar no mercado de trabalho
+                    <br>com a área que você mais se encaixa!</p>
+            </div>
+                <div class="caixa-imagens">
+                    <img src="assets/frontend.png" width="340" alt="logo do curso de formulário">
+                    <img src="assets/designer.png" width="340" alt="logo do curso de designer gráfico">
+                    <img src="assets/cuidador.png" width="340" alt="logo do curso de cuidador de idosos">
+                    <img src="assets/veterinário.png" width="340" alt="logo do curso de auxiliar de veterinário">
+                </div>
+                <hr>
+
+                <div class="textop2-main">
+                    <h2>Outras especialidades para seguir uma carreira <b>PROFISSIONAL</b></h2>
+                    <p>Para você que sonha ter seu próprio negócio, comece a investir no seu futuro <br>
+                    e ganhe experiência nas áreas de Microempreendedor.</p>
+                </div>
+
+                <div class="caixa2-imagens">
+                    <div class="auxiliar__farmacia">
+                        <figure>
+                            <figcaption>Auxiliar de Farmácia</figcaption>
+                            <img src="assets/card1.png" alt="card de curso de auxiliar de Farmácia">
+                        </figure>
+                    </div>
+                
+                    <div>
+                        <figure>
+                            <figcaption>Téc.Administração</figcaption>                          
+                            <img src="assets/card2.png" alt="card do curso de Téc.Administração">
+                        </figure>
+                    </div>
+
+                    <div>
+                        <figure>
+                            <figcaption>designer/Alongamento</figcaption>
+                            <img src="assets/card3.png" alt="card do curso de Designer/Alongamento">
+                        </figure>
+                    </div>
+
+                    <div>
+                        <figure>
+                            <figcaption>Barbeiro</figcaption>                
+                            <img src="assets/card4.png" alt="Card do curso de barbeiro">
+                        </figure>
+                    </div>
+                </div>
+        </section>
+    </main>
 </body>
 </html>
