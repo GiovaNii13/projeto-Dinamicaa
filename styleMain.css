@@ -11,30 +11,29 @@ html, body {
 }
 
 .secao-01 {
-    padding-left: 3%;
-    padding-right: 3%;
-    border: solid;
     background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow:  0 0.3em 1em grey;
     border-top: solid 10px #0d3f86;
-    border-radius: 8px;
+    border-radius: 14px;
 }
 
 main {
     
-    padding: 50px;
-    margin: 2PX;
-    margin-top: -90px;
+    padding: 40px;
+    margin-top: -80px;
 }
 
 .titulo1__main {
     padding-top: 50px;
-    font-size: 46px;
+    font-size: 47px;
     color: #0d3f86;
     padding-bottom: 30px;
 }
 
 .paragrafo1__main {
-    font-size: 30px;
+    font-size: 27px;
     padding-bottom: 40px;
 }
 
@@ -44,19 +43,86 @@ main {
     padding-bottom: 70px;
 }
 
+.caixa-imagens :hover {
+    width: 310px;
+    cursor: pointer;
+    opacity: .8;
+}
+
 
 .titulo2__main {
     padding-top: 70px;
-    padding-bottom: 40px;
-    font-size: 40px;
+    padding-bottom: 30px;
+    font-size: 44px;
     color: #0d3f86;
 }
 
 
 .paragrafo2__main {
-    font-size: 30px;
+    font-size: 26px;
+    padding-bottom: 60px;
 }
 
 hr {
     color: grey;
+}
+
+
+.caixa2-imagens {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 70px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.caixa2-imagens :hover {
+    font-size: 35px;
+    width: 360px;
+    height: 140px;
+    background-size: 360px;
+    opacity: .9;
+    cursor: pointer;
+}
+
+.text__card1 {
+    padding-top:40px;
+    color: white;
+    background-image: url(assets/card1.png);
+    width: 280px;
+    height: 110px;
+    background-size: 280px;
+}
+
+
+
+
+.text__card2 {
+    padding-top:40px;
+    color: white;
+    background-image: url(assets/card2.png);
+    width: 280px;
+    height: 110px;
+    background-size: 280px;
+}
+
+
+.text__card3 {
+    padding-top:40px;
+    color: white;
+    background-image: url(assets/card3.png);
+    width: 280px;
+    height: 110px;
+    background-size: 280px;
+}
+
+
+
+.text__card4 {
+    padding-top:40px;
+    color: white;
+    background-image: url(assets/card4.png);
+    width: 280px;
+    height: 110px;
+    background-size: 280px;
 }
