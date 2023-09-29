@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    background-color: #0d3f86;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 25px;
+    height: 40%;
+}
+
+.container__footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hor__funcionamento {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
