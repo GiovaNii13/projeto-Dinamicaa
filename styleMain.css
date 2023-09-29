@@ -126,3 +126,10 @@ hr {
     height: 110px;
     background-size: 280px;
 }
+
+
+.entre__contato {
+    padding-top: 30px;
+    font-size: 30px;
+    text-align: center;
+}
