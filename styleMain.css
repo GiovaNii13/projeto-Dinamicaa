@@ -10,18 +10,53 @@ html, body {
     height: 100%;
 }
 
+.secao-01 {
+    padding-left: 3%;
+    padding-right: 3%;
+    border: solid;
+    background-color: white;
+    border-top: solid 10px #0d3f86;
+    border-radius: 8px;
+}
+
 main {
+    
     padding: 50px;
+    margin: 2PX;
+    margin-top: -90px;
 }
 
 .titulo1__main {
+    padding-top: 50px;
     font-size: 46px;
     color: #0d3f86;
+    padding-bottom: 30px;
+}
+
+.paragrafo1__main {
+    font-size: 30px;
+    padding-bottom: 40px;
 }
 
 .caixa-imagens {
     display: flex;
     justify-content: space-between;
-    padding: 18px;
+    padding-bottom: 70px;
+}
+
+
+.titulo2__main {
+    padding-top: 70px;
     padding-bottom: 40px;
+    font-size: 40px;
+    color: #0d3f86;
+}
+
+
+.paragrafo2__main {
+    font-size: 30px;
+}
+
+hr {
+    color: grey;
 }
