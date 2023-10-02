@@ -134,3 +134,7 @@ footer {
 .img__copy {
     padding-left: 210px;
 }
+
+.icon__footer :hover {
+    opacity: .9;
+}
