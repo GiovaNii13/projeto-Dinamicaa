@@ -17,13 +17,12 @@ html, body {
     box-shadow:  0 0.3em 1em grey;
     border-top: solid 10px #0d3f86;
     border-radius: 14px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: -40px;
 }
 
-main {
-    
-    padding: 40px;
-    margin-top: -80px;
-}
+
 
 .titulo1__main {
     padding-top: 50px;
@@ -44,7 +43,7 @@ main {
 }
 
 .caixa-imagens :hover {
-    width: 310px;
+    width: 305px;
     cursor: pointer;
     opacity: .8;
 }
@@ -138,4 +137,18 @@ hr {
     margin-top: 80px;
     margin-left: 110px;
     margin-right: 110px;
+    
+}
+
+.secao-02 {
+    width: 1460px;
+    background-color: aqua;
+    height: 400px;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+.botao__secao2 {
+    margin-left: 45%;
+    margin-top: 340px;
 }
