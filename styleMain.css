@@ -133,3 +133,9 @@ hr {
     font-size: 30px;
     text-align: center;
 }
+
+.ultimohr {
+    margin-top: 80px;
+    margin-left: 110px;
+    margin-right: 110px;
+}
