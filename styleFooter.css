@@ -13,10 +13,11 @@ html, body {
 footer {
     background-color: #0d3f86;
     color: white;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 170px;
+    padding-right: 170px;
     padding-top: 25px;
-    height: 40%;
+    height: 360px;
+    border-bottom: solid 60px #191970;
 }
 
 .container__footer {
@@ -28,4 +29,108 @@ footer {
     display: flex;
     flex-direction: column;
     margin: 20px;
+    font-size: 24px;
+}
+.segunda {
+    padding-top: 7px;
+    padding-bottom: 2px;
+} 
+
+.terca {
+    padding-bottom: 2px;
+}
+
+.quarta {
+    padding-bottom: 2px;
+}
+
+.quinta {
+    padding-bottom: 2px;
+}
+
+.sexta {
+    padding-bottom: 2px;
+}
+
+.sabado {
+    padding-bottom: 2px;
+}
+
+.domingo {
+    padding-top: 10px;
+}
+
+
+
+.dia1 {
+    padding-right: 12px;
+}
+
+
+.dia2 {
+    padding-right: 16px;
+}
+
+
+.dia3 {
+    padding-right: 10px;
+}
+
+
+.dia4 {
+    padding-right: 13px;
+}
+
+
+.dia5 {
+    padding-right: 13px;
+}
+
+
+.dia6 {
+    padding-right: 12px;
+}
+
+
+.dia7 {
+    padding-right: 7px;
+}
+
+.barra {
+    padding: 0 5px 0px;
+    font-size: 27px;
+}
+
+.titulo__horario__footer {
+    font-size: 27px;
+}
+
+
+.texto__redesociais {
+    padding-bottom: 15px;
+    font-size: 27px;
+}
+
+.facebook__footer {
+    padding-right: 6px;
+}
+
+.telefone__footer {
+    padding-bottom: 14px;
+    font-size: 27px;
+}
+
+.email__footer {
+    padding-bottom: 14px;
+    font-size: 27px;
+}
+
+.copy__footer {
+    display: flex;
+    padding-top: 35px;
+    margin-left: -80px;
+}
+
+.img__copy {
+    padding-left: 210px;
 }
