@@ -14,7 +14,7 @@ html, body {
     background-color: white;
     padding-left: 30px;
     padding-right: 30px;
-    box-shadow:  0 0.3em 1em grey;
+    box-shadow: 0px 11px 21px -10px rgba(0, 0, 0, 0.59);
     border-top: solid 10px #0d3f86;
     border-radius: 14px;
     margin-left: 40px;
@@ -43,7 +43,6 @@ html, body {
 }
 
 .caixa-imagens :hover {
-    width: 305px;
     cursor: pointer;
     opacity: .8;
 }
@@ -70,16 +69,13 @@ hr {
 .caixa2-imagens {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding-bottom: 70px;
     font-size: 25px;
     text-align: center;
 }
 
-.caixa2-imagens :hover {
-    font-size: 35px;
-    width: 360px;
-    height: 140px;
-    background-size: 360px;
+.caixa2-imagens .card:hover {
     opacity: .9;
     cursor: pointer;
 }
